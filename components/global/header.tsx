@@ -34,17 +34,17 @@ export const Header = () => {
         >
           <div className="hamburger-icon flex flex-col justify-between w-6 h-5 relative">
             <span
-              className={`block h-0.5 w-full bg-current transform transition duration-300 ease-in-out ${
+              className={`bg-white block h-0.5 w-full bg-current transform transition duration-300 ease-in-out ${
                 menuOpen ? 'rotate-45 translate-y-2' : ''
               }`}
             />
             <span
-              className={`block h-0.5 w-full bg-current transition duration-300 ease-in-out ${
+              className={`bg-white block h-0.5 w-full bg-current transition duration-300 ease-in-out ${
                 menuOpen ? 'opacity-0' : ''
               }`}
             />
             <span
-              className={`block h-0.5 w-full bg-current transform transition duration-300 ease-in-out ${
+              className={`bg-white block h-0.5 w-full bg-current transform transition duration-300 ease-in-out ${
                 menuOpen ? '-rotate-45 -translate-y-2' : ''
               }`}
             />
