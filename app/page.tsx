@@ -2,6 +2,7 @@ import { Button } from "@/components/global/button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Analytics } from "@vercel/analytics/react"
 import Link from "next/link";
 
 export default function Home() {
