@@ -62,7 +62,6 @@ export const Header = () => {
           </Button>
           <Button
             link="#contact"
-            target="_blank"
             className="bg-black-500 hover:bg-gray-800 text-white font-bold"
           >
             Contact
