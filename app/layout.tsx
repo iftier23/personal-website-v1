@@ -57,9 +57,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en">
             <body className="bg-black-500">
                 <Header />
-                <main className="main grid gap-8">{children}</main>
+                <main className="main grid gap-8">{children}<Analytics /></main>
                 <Footer />
-                <Analytics />
             </body>
         </html>
     );
