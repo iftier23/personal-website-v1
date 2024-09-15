@@ -6,7 +6,9 @@ const config: Config = {
         extend: {
             fontFamily: {
                 body: ["Inter", "Sans Serif"],
-                title: ["Inter", "Sans Serif"]
+                title: ["Inter", "Sans Serif"],
+                playfair: ["'Playfair Display'", "serif"],
+                merriweather: ["'Merriweather'", "serif"],
             },
             fontSize: {
                 body: [
@@ -113,9 +115,17 @@ const config: Config = {
                 },
                 badge: "#F1F5F9",
                 badgeText: "#475569"
-            }
+            },
+            fontWeight: {
+                400: '400',
+                500: '500',
+                600: '600',
+                700: '700',
+                800: '800',
+                900: '900',
+            },
         }
     },
-    plugins: [require("@tailwindcss/typography")]
+    plugins: [],
 };
 export default config;

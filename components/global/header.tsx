@@ -54,6 +54,12 @@ export const Header = () => {
         {/* Navigation buttons for medium and larger screens */}
         <div className="hidden md:flex items-center gap-2">
           <Button
+            link="#about"
+            className="bg-black-500 hover:bg-gray-800 text-white font-bold"
+          >
+            About
+          </Button>
+          <Button
             link="https://linkedin.com/in/iftier-rahman/"
             target="_blank"
             className="bg-black-500 hover:bg-gray-800 text-white font-bold"
@@ -76,6 +82,12 @@ export const Header = () => {
         }`}
       >
         <div className="flex flex-col items-start p-4 space-y-2">
+          <Button
+            link="#about"
+            className="w-full bg-black hover:bg-gray-800 text-white font-bold text-left"
+          >
+            About
+          </Button>
           <Button
             link="https://linkedin.com/in/iftier-rahman/"
             target="_blank"
