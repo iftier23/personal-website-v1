@@ -3,6 +3,7 @@ import "@styles/globals.scss";
 import { SITE } from "@/config";
 import { Header } from "@components/global/header";
 import { Footer } from "@components/global/footer";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
     title: SITE.title || "Your Title",
