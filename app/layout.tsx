@@ -14,11 +14,11 @@ export const metadata: Metadata = {
             { url: "/logo-official-rez.png", sizes: "16x16", type: "image/png" },
             { url: "/logo-official-rez.png", sizes: "32x32", type: "image/png" }
         ],
-        shortcut: "/android-chrome-192x192.png",
-        apple: "/apple-touch-icon.png",
+        shortcut: "/logo-official-rez.png",
+        apple: "//logo-official-rez.png",
         other: {
             rel: "apple-touch-icon",
-            url: "/apple-touch-icon.png"
+            url: "/logo-official-rez.png"
         }
     },
     openGraph: {
