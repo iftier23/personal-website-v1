@@ -5,10 +5,11 @@ const config: Config = {
     theme: {
         extend: {
             fontFamily: {
-                body: ["Inter", "Sans Serif"],
-                title: ["Inter", "Sans Serif"],
-                playfair: ["'Playfair Display'", "serif"],
-                merriweather: ["'Merriweather'", "serif"],
+                body: ["var(--font-inter)", "Inter", "Sans Serif"],
+                title: ["var(--font-inter)", "Inter", "Sans Serif"],
+                // Use next/font CSS variables provided in app/layout.tsx
+                playfair: ["var(--font-playfair)", "serif"],
+                merriweather: ["var(--font-merriweather)", "serif"],
             },
             fontSize: {
                 body: [

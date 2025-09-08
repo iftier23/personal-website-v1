@@ -9,12 +9,6 @@ export default function Home() {
         <section className="wrap-md w-full wrap-px pt-4 mx-auto">
             <div className="grid grid-cols-6 gap-4">
                 <div className="col-span-6 md:col-span-4 row-span-1">
-                    <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-                    </style>
-                    <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-                    </style>
 
                     <div className="flex h-full flex-wrap gap-4 content-center bg-neutral-300/20 sm:aspect-auto relative p-8 sm:p-12  border-neutral-400/30 rounded-xl shadow-sm overflow-hidden ">
                         <div className="content flex gap-4 flex-wrap max-w-60 sm:max-w-72 md:max-w-52 lg:max-w-80 relative z-10">
@@ -23,7 +17,7 @@ export default function Home() {
                             <h4 className="text-black-200 mb-0 font-playfair font-semibold italic">Computer Engineering @ University of Toronto (UofT)</h4>
 
                             <div className="inline-flex">
-                                <Button link="/Iftier-Rahman-Resume-Master-v2.pdf" className="mt-4 bg-black-500 hover:bg-black-300 text-white font-bold py-2 px-4 rounded" target="_blank">
+                                <Button link="#" className="mt-4 bg-black-500 hover:bg-black-300 text-white font-bold py-2 px-4 rounded" target="_blank">
                                     Check out my Resume
                                 </Button>
                             </div>
@@ -118,12 +112,13 @@ export default function Home() {
                         <div className="content w-full h-full flex content-end flex-wrap">
                             <div className="flex flex-wrap max-w-[512px] gap-8 relative z-10">
                                 <span className="text-white block text-sm sm:text-sm underline-offset-4">I love building things and learning more about the world around me.</span>
-                                <span className="text-white block text-sm sm:text-sm underline-offset-4">I've interned at <b>Amazon Web Services (AWS)</b> twice, diving into software development and cloud computing, and now I’m on the hunt for my next adventure.</span>
+                                <span className="text-white block text-sm sm:text-sm underline-offset-4">I've interned at <b>Amazon Web Services (AWS)</b> twice, diving into software development, distributed systems, and cloud computing</span>
+                                <span className="text-white block text-sm sm:text-sm underline-offset-4">More recently, I interned at <b>Shopify</b> working on LLM agents and agentic AI. I’m now on the hunt for my next adventure.</span>
                                 <span className="text-white block text-sm sm:text-sm underline-offset-4">
                                     Feel free to reach out!
                                 </span>
                                 <span className="text-white block text-sm sm:text-sm underline-offset-4">
-                                    I’m open to internships and PEY co-op positions from 4 to 16 months.
+                                    I’m open to internships for both Winter 2026 and Summer 2026 (4-8 months).
                                 </span>
                                 <span className="italic text-white block text-sm sm:text-sm underline-offset-4">P.S. The website logo is my name in Bengali</span>
                             </div>

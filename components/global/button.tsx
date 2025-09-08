@@ -12,23 +12,22 @@ const ButtonVariant: ButtonVariant = {
 };
 
 export const Button: React.FC<ButtonProps> = ({ children, link = "", action = "button", variant = "primary", className = "", mode = "link", target = "_self" }: ButtonProps) => {
-    const Element = mode === "button" ? "button" : Link;
+    const isLink = mode === "link" && !!link;
+    const Element: any = isLink ? Link : "button";
 
-    const commonAttributes = {
-        role: "button",
-        href: link ? link : "#",
-        target: mode === "link" ? target : "_self",
-        className: clsx("btn", ButtonVariant[variant], className)
-    };
+    const baseClass = clsx("btn", ButtonVariant[variant], className);
 
-    const buttonAttributes = {
-        ...(mode === "button" && action ? { type: action } : {})
-    };
+    if (isLink) {
+        return (
+            <Element role="button" href={link} target={target} className={baseClass}>
+                {children}
+            </Element>
+        );
+    }
 
-    const attributes = {
-        ...commonAttributes,
-        ...(mode === "button" ? buttonAttributes : {})
-    };
-
-    return <Element {...attributes}>{children}</Element>;
+    return (
+        <Element role="button" type={action} className={baseClass}>
+            {children}
+        </Element>
+    );
 };
