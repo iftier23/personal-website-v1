@@ -17,7 +17,7 @@ export default function Home() {
                             <h4 className="text-black-200 mb-0 font-playfair font-semibold italic">Computer Engineering @ University of Toronto (UofT)</h4>
 
                             <div className="inline-flex">
-                                <Button link="#" className="mt-4 bg-black-500 hover:bg-black-300 text-white font-bold py-2 px-4 rounded" target="_blank">
+                                <Button link="Resume/Iftier-Rahman-Master-Resume.pdf" className="mt-4 bg-black-500 hover:bg-black-300 text-white font-bold py-2 px-4 rounded" target="_blank">
                                     Check out my Resume
                                 </Button>
                             </div>
